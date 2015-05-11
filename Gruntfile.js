@@ -48,7 +48,7 @@ require( 'load-grunt-tasks' )( grunt );
             deploy: {
                 files: [
                 // includes files within path
-                { expand: true,  cwd: 'less/', src: ['_titatoggle.less'], dest: 'dist/' },
+                { expand: true,  cwd: 'less/', src: ['_sisaslider.less'], dest: 'dist/' },
                 ]
             }
         },
@@ -72,7 +72,7 @@ require( 'load-grunt-tasks' )( grunt );
             },
             deploy: {
                 files: {
-                    "dist/titatoggle-dist.css": "less/slider.less"
+                    "dist/sisaslider-dist.css": "less/slider.less"
                 }
             },
             deployMin: {
@@ -80,7 +80,7 @@ require( 'load-grunt-tasks' )( grunt );
                     cleancss: true
                 },
                 files: {
-                    "dist/titatoggle-dist-min.css": "less/slider.less"
+                    "dist/sisaslider-dist-min.css": "less/slider.less"
                 }
             }
         },
@@ -96,8 +96,8 @@ require( 'load-grunt-tasks' )( grunt );
               dest: 'gh-pages/css/main.css'
             },
             deploy_file: {
-              src: 'dist/titatoggle-dist.css',
-              dest: 'dist/titatoggle-dist.css'
+              src: 'dist/sisaslider-dist.css',
+              dest: 'dist/sisaslider-dist.css'
             },
         },
         'gh-pages': {

@@ -1,4 +1,4 @@
-TiTatoggle - (bs3 addon without JS)
+sisaslider - (bs3 addon without JS)
 ==========
 
 Using awesome toggle buttons without Javascript or any other logic, other than plane form elements.
